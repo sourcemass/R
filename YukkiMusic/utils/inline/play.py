@@ -325,7 +325,6 @@ def panel_markup_3(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="⏭ 30 ثانية ",
-0 Seconds",
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],

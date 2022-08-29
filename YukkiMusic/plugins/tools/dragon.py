@@ -56,7 +56,7 @@ y.verbose = False
 
 
 @app.on_message(
-    command(["ايدي,الايدي"])
+    command(["ايدي","الايدي"])
     & filters.group
     & ~filters.edited
 )
@@ -76,7 +76,7 @@ async def khalid(client: Client, message: Message):
     )
     
 @app.on_message(
-    command(["قول,كول"])
+    command(["قول","كول"])
     & filters.group
     & ~filters.edited
 )
@@ -94,7 +94,7 @@ async def khalid(client: Client, message: Message):
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""أنت {name}""",
+                    f"""أنت {name} 🫂🤍""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -141,7 +141,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton(
                         "𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
             ],[
-                InlineKeyboardButton("✚ أضفني الى مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("أضفني الى مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
         ]
          ),

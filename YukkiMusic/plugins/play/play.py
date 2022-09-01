@@ -43,7 +43,7 @@ force_btn = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆", url="https://t.me/yy8gg"
+                text="قناة البوت", url="https://t.me/yy8gg"
             ),                        
         ],        
     ]
@@ -55,7 +55,7 @@ async def check_is_joined(message):
         status = await app.get_chat_member("yy8gg", userid)
         return True
     except Exception:
-        await message.reply_text( "{DRAGON}" ,reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+        await message.reply_text( "من فضلك أشترك فب قناة البوت ." ,reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
         return False
 
 # Command

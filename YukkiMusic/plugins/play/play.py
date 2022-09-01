@@ -55,7 +55,7 @@ async def check_is_joined(message):
         status = await app.get_chat_member("yy8gg", userid)
         return True
     except Exception:
-        await message.reply_text("**• عذࢪا عݪيك الأشتࢪاك بقناة اݪبوت أولا :**",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+        await message.reply_text( {"DRAGON"} ,reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
         return False
 
 # Command

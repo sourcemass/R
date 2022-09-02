@@ -23,12 +23,8 @@ def start_pannel(_):
                 url=f"https://t.me/{app.username}?start=help",
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"], callback_data="settings_helper"
+                text=_["S_B_2"], callback_data="settings_helper",
             ),
-        ],
-    ]
-    buttons.append(
-        [
             InlineKeyboardButton(
                 text=_["S_B_20"],
                 url=f"https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗲𝗱-𝗤𝗮-08-24-6"

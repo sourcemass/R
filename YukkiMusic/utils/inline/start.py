@@ -31,9 +31,9 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_20"],
-                url=f"https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗲𝗱-𝗤𝗮-08-24-6",
-            )
-        ]
+                url=f"https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗲𝗱-𝗤𝗮-08-24-6"
+            ),
+        ],
     )
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(

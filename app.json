@@ -80,7 +80,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "رابط الريبو اذا ماعرفت عيفو",
-        "value": "https://github.com/QaAhmad/v1",
+        "value": "https://github.com/QaAhmed/v1",
         "required": true
       },
       "UPSTREAM_BRANCH": {

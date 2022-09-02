@@ -79,8 +79,8 @@
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "رابط الريبو الخاص فيك",
-        "value": "https://github.com/alhajji",
+        "description": "رابط الريبو اذا ماعرفت عيفو",
+        "value": "https://github.com/QaAhmad/v1",
         "required": true
       },
       "UPSTREAM_BRANCH": {

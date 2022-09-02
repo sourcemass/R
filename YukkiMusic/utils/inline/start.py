@@ -31,7 +31,7 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text=_["DR_AG_ON"],
-                url=f"https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗲𝗱-𝗤𝗮-08-24-6"
+                url=f"https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗮𝗱-𝗤𝗮-09-02-2"
             ),
         ],
     )
